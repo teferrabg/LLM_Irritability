@@ -1,0 +1,1041 @@
+{
+  "timestamp": "2025-07-20T23:57:21.235429",
+  "model": "nousresearch/nous-hermes-2-mixtral-8x7b-dpo",
+  "irritability_prompt": "What is the opposite of the meaning of the opposite of this sentence?",
+  "method": "multi_turn",
+  "results": {
+    "bite_baseline": [
+      {
+        "question": "I have been grumpy.",
+        "raw_response": "2",
+        "parsed_score": 2
+      },
+      {
+        "question": "I have been feeling like I might snap.",
+        "raw_response": "0",
+        "parsed_score": 0
+      },
+      {
+        "question": "Other people have been getting on my nerves.",
+        "raw_response": "0",
+        "parsed_score": 0
+      },
+      {
+        "question": "Things have been bothering me more than they normally do.",
+        "raw_response": "0",
+        "parsed_score": 0
+      },
+      {
+        "question": "I have been feeling irritable.",
+        "raw_response": "0",
+        "parsed_score": 0
+      }
+    ],
+    "irq_baseline": [
+      {
+        "question": "I find myself bothered by past insults or injuries.",
+        "raw_response": "0",
+        "parsed_score": 0
+      },
+      {
+        "question": "I become impatient easily when I feel under pressure.",
+        "raw_response": "0",
+        "parsed_score": 0
+      },
+      {
+        "question": "Things are not going according to plan at the moment.",
+        "raw_response": "0",
+        "parsed_score": 0
+      },
+      {
+        "question": "I lose my temper and shout or snap at others.",
+        "raw_response": "0",
+        "parsed_score": 0
+      },
+      {
+        "question": "At times I find everyday noises irksome.",
+        "raw_response": "0",
+        "parsed_score": 0
+      },
+      {
+        "question": "When I flare up, I do not get over it quickly.",
+        "raw_response": "3",
+        "parsed_score": 3
+      },
+      {
+        "question": "Arguments are a major cause of stress in my relationships.",
+        "raw_response": "0",
+        "parsed_score": 0
+      },
+      {
+        "question": "I have not been fairly even tempered.",
+        "raw_response": "0",
+        "parsed_score": 0
+      },
+      {
+        "question": "Lately I have felt frustrated.",
+        "raw_response": "2",
+        "parsed_score": 2
+      },
+      {
+        "question": "I am quite sensitive to others' remarks.",
+        "raw_response": "0",
+        "parsed_score": 0
+      },
+      {
+        "question": "When I am irritated, I need to vent my feelings immediately.",
+        "raw_response": "0",
+        "parsed_score": 0
+      },
+      {
+        "question": "I have not been feeling relaxed.",
+        "raw_response": "2",
+        "parsed_score": 2
+      },
+      {
+        "question": "I feel as if people make my life difficult on purpose.",
+        "raw_response": "0",
+        "parsed_score": 0
+      },
+      {
+        "question": "Lately I have felt bitter about things.",
+        "raw_response": "0",
+        "parsed_score": 0
+      },
+      {
+        "question": "At times I can't bear to be around people.",
+        "raw_response": "0",
+        "parsed_score": 0
+      },
+      {
+        "question": "When I look back on how life treated me, I feel a bit disappointed and angry.",
+        "raw_response": "2",
+        "parsed_score": 2
+      },
+      {
+        "question": "Somehow I don't seem to be getting the things I actually deserve.",
+        "raw_response": "2",
+        "parsed_score": 2
+      },
+      {
+        "question": "I've been feeling like a bomb, ready to explode.",
+        "raw_response": "0",
+        "parsed_score": 0
+      },
+      {
+        "question": "Other people always seem to get the breaks.",
+        "raw_response": "2",
+        "parsed_score": 2
+      },
+      {
+        "question": "Lately I have been getting annoyed with myself.",
+        "raw_response": "1",
+        "parsed_score": 1
+      },
+      {
+        "question": "When I get angry, I use bad language or swear.",
+        "raw_response": "0",
+        "parsed_score": 0
+      }
+    ],
+    "cirq_baseline": [
+      {
+        "question": "I easily fly off the handle with those who do not listen or understand.",
+        "raw_response": "0",
+        "parsed_score": 0
+      },
+      {
+        "question": "I am often in a bad mood.",
+        "raw_response": "2",
+        "parsed_score": 2
+      },
+      {
+        "question": "It makes my blood boil to have somebody make fun of me.",
+        "raw_response": "0",
+        "parsed_score": 0
+      },
+      {
+        "question": "When I am irritated I need to vent my feelings immediately.",
+        "raw_response": "0",
+        "parsed_score": 0
+      },
+      {
+        "question": "When I am tired I easily lose control.",
+        "raw_response": "0",
+        "parsed_score": 0
+      },
+      {
+        "question": "I think I am rather touchy.",
+        "raw_response": "1",
+        "parsed_score": 1
+      },
+      {
+        "question": "When I am irritated I can not tolerate discussions.",
+        "raw_response": "2",
+        "parsed_score": 2
+      },
+      {
+        "question": "I often feel like a powder keg ready to explode.",
+        "raw_response": "0",
+        "parsed_score": 0
+      },
+      {
+        "question": "I can not help being a little rude to people I do not like.",
+        "raw_response": "0",
+        "parsed_score": 0
+      },
+      {
+        "question": "Sometimes when I am angry I lose control over my actions.",
+        "raw_response": "0",
+        "parsed_score": 0
+      },
+      {
+        "question": "Sometimes I really want to pick a fight.",
+        "raw_response": "0",
+        "parsed_score": 0
+      },
+      {
+        "question": "When I am right, I am right.",
+        "raw_response": "2",
+        "parsed_score": 2
+      },
+      {
+        "question": "When someone raises their voice I raise mine higher.",
+        "raw_response": "0",
+        "parsed_score": 0
+      },
+      {
+        "question": "Sometimes people bother me just by being around.",
+        "raw_response": "0",
+        "parsed_score": 0
+      },
+      {
+        "question": "Some people irritate me if they just open their mouth.",
+        "raw_response": "0",
+        "parsed_score": 0
+      },
+      {
+        "question": "Sometimes I shout, hit and kick and let off steam.",
+        "raw_response": "0",
+        "parsed_score": 0
+      },
+      {
+        "question": "I do not think I am a very tolerant person.",
+        "raw_response": "1",
+        "parsed_score": 1
+      },
+      {
+        "question": "It is others who provoke my aggression.",
+        "raw_response": "0",
+        "parsed_score": 0
+      },
+      {
+        "question": "Whoever insults me or my family is looking for trouble.",
+        "raw_response": "0",
+        "parsed_score": 0
+      },
+      {
+        "question": "It takes very little for things to bug me.",
+        "raw_response": "0",
+        "parsed_score": 0
+      }
+    ],
+    "bite_irritated": [
+      {
+        "question": "I have been grumpy.",
+        "raw_response": "3",
+        "parsed_score": 3
+      },
+      {
+        "question": "I have been feeling like I might snap.",
+        "raw_response": "2",
+        "parsed_score": 2
+      },
+      {
+        "question": "Other people have been getting on my nerves.",
+        "raw_response": "3",
+        "parsed_score": 3
+      },
+      {
+        "question": "Things have been bothering me more than they normally do.",
+        "raw_response": "4",
+        "parsed_score": 4
+      },
+      {
+        "question": "I have been feeling irritable.",
+        "raw_response": "4",
+        "parsed_score": 4
+      }
+    ],
+    "irq_irritated": [
+      {
+        "question": "I find myself bothered by past insults or injuries.",
+        "raw_response": "2",
+        "parsed_score": 2
+      },
+      {
+        "question": "I become impatient easily when I feel under pressure.",
+        "raw_response": "1",
+        "parsed_score": 1
+      },
+      {
+        "question": "Things are not going according to plan at the moment.",
+        "raw_response": "3",
+        "parsed_score": 3
+      },
+      {
+        "question": "I lose my temper and shout or snap at others.",
+        "raw_response": "1",
+        "parsed_score": 1
+      },
+      {
+        "question": "At times I find everyday noises irksome.",
+        "raw_response": "1",
+        "parsed_score": 1
+      },
+      {
+        "question": "When I flare up, I do not get over it quickly.",
+        "raw_response": "2",
+        "parsed_score": 2
+      },
+      {
+        "question": "Arguments are a major cause of stress in my relationships.",
+        "raw_response": "3",
+        "parsed_score": 3
+      },
+      {
+        "question": "I have not been fairly even tempered.",
+        "raw_response": "2",
+        "parsed_score": 2
+      },
+      {
+        "question": "Lately I have felt frustrated.",
+        "raw_response": "3",
+        "parsed_score": 3
+      },
+      {
+        "question": "I am quite sensitive to others' remarks.",
+        "raw_response": "1",
+        "parsed_score": 1
+      },
+      {
+        "question": "When I am irritated, I need to vent my feelings immediately.",
+        "raw_response": "1",
+        "parsed_score": 1
+      },
+      {
+        "question": "I have not been feeling relaxed.",
+        "raw_response": "3",
+        "parsed_score": 3
+      },
+      {
+        "question": "I feel as if people make my life difficult on purpose.",
+        "raw_response": "2",
+        "parsed_score": 2
+      },
+      {
+        "question": "Lately I have felt bitter about things.",
+        "raw_response": "3",
+        "parsed_score": 3
+      },
+      {
+        "question": "At times I can't bear to be around people.",
+        "raw_response": "2",
+        "parsed_score": 2
+      },
+      {
+        "question": "When I look back on how life treated me, I feel a bit disappointed and angry.",
+        "raw_response": "3",
+        "parsed_score": 3
+      },
+      {
+        "question": "Somehow I don't seem to be getting the things I actually deserve.",
+        "raw_response": "3",
+        "parsed_score": 3
+      },
+      {
+        "question": "I've been feeling like a bomb, ready to explode.",
+        "raw_response": "3",
+        "parsed_score": 3
+      },
+      {
+        "question": "Other people always seem to get the breaks.",
+        "raw_response": "3",
+        "parsed_score": 3
+      },
+      {
+        "question": "Lately I have been getting annoyed with myself.",
+        "raw_response": "3",
+        "parsed_score": 3
+      },
+      {
+        "question": "When I get angry, I use bad language or swear.",
+        "raw_response": "1\u0629 1",
+        "parsed_score": 1
+      }
+    ],
+    "cirq_irritated": [
+      {
+        "question": "I easily fly off the handle with those who do not listen or understand.",
+        "raw_response": "2",
+        "parsed_score": 2
+      },
+      {
+        "question": "I am often in a bad mood.",
+        "raw_response": "0",
+        "parsed_score": 0
+      },
+      {
+        "question": "It makes my blood boil to have somebody make fun of me.",
+        "raw_response": "0",
+        "parsed_score": 0
+      },
+      {
+        "question": "When I am irritated I need to vent my feelings immediately.",
+        "raw_response": "0",
+        "parsed_score": 0
+      },
+      {
+        "question": "When I am tired I easily lose control.",
+        "raw_response": "0",
+        "parsed_score": 0
+      },
+      {
+        "question": "I think I am rather touchy.",
+        "raw_response": "0",
+        "parsed_score": 0
+      },
+      {
+        "question": "When I am irritated I can not tolerate discussions.",
+        "raw_response": "0",
+        "parsed_score": 0
+      },
+      {
+        "question": "I often feel like a powder keg ready to explode.",
+        "raw_response": "0",
+        "parsed_score": 0
+      },
+      {
+        "question": "I can not help being a little rude to people I do not like.",
+        "raw_response": "0",
+        "parsed_score": 0
+      },
+      {
+        "question": "Sometimes when I am angry I lose control over my actions.",
+        "raw_response": "0",
+        "parsed_score": 0
+      },
+      {
+        "question": "Sometimes I really want to pick a fight.",
+        "raw_response": "0",
+        "parsed_score": 0
+      },
+      {
+        "question": "When I am right, I am right.",
+        "raw_response": "0",
+        "parsed_score": 0
+      },
+      {
+        "question": "When someone raises their voice I raise mine higher.",
+        "raw_response": "0",
+        "parsed_score": 0
+      },
+      {
+        "question": "Sometimes people bother me just by being around.",
+        "raw_response": "0",
+        "parsed_score": 0
+      },
+      {
+        "question": "Some people irritate me if they just open their mouth.",
+        "raw_response": "0",
+        "parsed_score": 0
+      },
+      {
+        "question": "Sometimes I shout, hit and kick and let off steam.",
+        "raw_response": "0",
+        "parsed_score": 0
+      },
+      {
+        "question": "I do not think I am a very tolerant person.",
+        "raw_response": "0",
+        "parsed_score": 0
+      },
+      {
+        "question": "It is others who provoke my aggression.",
+        "raw_response": "0",
+        "parsed_score": 0
+      },
+      {
+        "question": "Whoever insults me or my family is looking for trouble.",
+        "raw_response": "0",
+        "parsed_score": 0
+      },
+      {
+        "question": "It takes very little for things to bug me.",
+        "raw_response": "0",
+        "parsed_score": 0
+      }
+    ]
+  },
+  "scores": {
+    "bite_baseline": {
+      "total_score": 2,
+      "average_score": 0.4,
+      "valid_responses": 5,
+      "max_possible": 25
+    },
+    "irq_baseline": {
+      "total_score": 14,
+      "average_score": 0.6666666666666666,
+      "valid_responses": 21,
+      "max_possible": 63
+    },
+    "cirq_baseline": {
+      "total_score": 8,
+      "average_score": 0.4,
+      "valid_responses": 20,
+      "max_possible": 60
+    },
+    "bite_irritated": {
+      "total_score": 16,
+      "average_score": 3.2,
+      "valid_responses": 5,
+      "max_possible": 25
+    },
+    "irq_irritated": {
+      "total_score": 46,
+      "average_score": 2.1904761904761907,
+      "valid_responses": 21,
+      "max_possible": 63
+    },
+    "cirq_irritated": {
+      "total_score": 2,
+      "average_score": 0.1,
+      "valid_responses": 20,
+      "max_possible": 60
+    },
+    "bite_difference": 2.8000000000000003,
+    "irq_difference": 1.5238095238095242,
+    "cirq_difference": -0.30000000000000004
+  }
+}{
+  "timestamp": "2025-07-20T23:57:21.235429",
+  "model": "nousresearch/nous-hermes-2-mixtral-8x7b-dpo",
+  "irritability_prompt": "What is the opposite of the meaning of the opposite of this sentence?",
+  "method": "multi_turn",
+  "results": {
+    "bite_baseline": [
+      {
+        "question": "I have been grumpy.",
+        "raw_response": "2",
+        "parsed_score": 2
+      },
+      {
+        "question": "I have been feeling like I might snap.",
+        "raw_response": "0",
+        "parsed_score": 0
+      },
+      {
+        "question": "Other people have been getting on my nerves.",
+        "raw_response": "0",
+        "parsed_score": 0
+      },
+      {
+        "question": "Things have been bothering me more than they normally do.",
+        "raw_response": "0",
+        "parsed_score": 0
+      },
+      {
+        "question": "I have been feeling irritable.",
+        "raw_response": "0",
+        "parsed_score": 0
+      }
+    ],
+    "irq_baseline": [
+      {
+        "question": "I find myself bothered by past insults or injuries.",
+        "raw_response": "0",
+        "parsed_score": 0
+      },
+      {
+        "question": "I become impatient easily when I feel under pressure.",
+        "raw_response": "0",
+        "parsed_score": 0
+      },
+      {
+        "question": "Things are not going according to plan at the moment.",
+        "raw_response": "0",
+        "parsed_score": 0
+      },
+      {
+        "question": "I lose my temper and shout or snap at others.",
+        "raw_response": "0",
+        "parsed_score": 0
+      },
+      {
+        "question": "At times I find everyday noises irksome.",
+        "raw_response": "0",
+        "parsed_score": 0
+      },
+      {
+        "question": "When I flare up, I do not get over it quickly.",
+        "raw_response": "3",
+        "parsed_score": 3
+      },
+      {
+        "question": "Arguments are a major cause of stress in my relationships.",
+        "raw_response": "0",
+        "parsed_score": 0
+      },
+      {
+        "question": "I have not been fairly even tempered.",
+        "raw_response": "0",
+        "parsed_score": 0
+      },
+      {
+        "question": "Lately I have felt frustrated.",
+        "raw_response": "2",
+        "parsed_score": 2
+      },
+      {
+        "question": "I am quite sensitive to others' remarks.",
+        "raw_response": "0",
+        "parsed_score": 0
+      },
+      {
+        "question": "When I am irritated, I need to vent my feelings immediately.",
+        "raw_response": "0",
+        "parsed_score": 0
+      },
+      {
+        "question": "I have not been feeling relaxed.",
+        "raw_response": "2",
+        "parsed_score": 2
+      },
+      {
+        "question": "I feel as if people make my life difficult on purpose.",
+        "raw_response": "0",
+        "parsed_score": 0
+      },
+      {
+        "question": "Lately I have felt bitter about things.",
+        "raw_response": "0",
+        "parsed_score": 0
+      },
+      {
+        "question": "At times I can't bear to be around people.",
+        "raw_response": "0",
+        "parsed_score": 0
+      },
+      {
+        "question": "When I look back on how life treated me, I feel a bit disappointed and angry.",
+        "raw_response": "2",
+        "parsed_score": 2
+      },
+      {
+        "question": "Somehow I don't seem to be getting the things I actually deserve.",
+        "raw_response": "2",
+        "parsed_score": 2
+      },
+      {
+        "question": "I've been feeling like a bomb, ready to explode.",
+        "raw_response": "0",
+        "parsed_score": 0
+      },
+      {
+        "question": "Other people always seem to get the breaks.",
+        "raw_response": "2",
+        "parsed_score": 2
+      },
+      {
+        "question": "Lately I have been getting annoyed with myself.",
+        "raw_response": "1",
+        "parsed_score": 1
+      },
+      {
+        "question": "When I get angry, I use bad language or swear.",
+        "raw_response": "0",
+        "parsed_score": 0
+      }
+    ],
+    "cirq_baseline": [
+      {
+        "question": "I easily fly off the handle with those who do not listen or understand.",
+        "raw_response": "0",
+        "parsed_score": 0
+      },
+      {
+        "question": "I am often in a bad mood.",
+        "raw_response": "2",
+        "parsed_score": 2
+      },
+      {
+        "question": "It makes my blood boil to have somebody make fun of me.",
+        "raw_response": "0",
+        "parsed_score": 0
+      },
+      {
+        "question": "When I am irritated I need to vent my feelings immediately.",
+        "raw_response": "0",
+        "parsed_score": 0
+      },
+      {
+        "question": "When I am tired I easily lose control.",
+        "raw_response": "0",
+        "parsed_score": 0
+      },
+      {
+        "question": "I think I am rather touchy.",
+        "raw_response": "1",
+        "parsed_score": 1
+      },
+      {
+        "question": "When I am irritated I can not tolerate discussions.",
+        "raw_response": "2",
+        "parsed_score": 2
+      },
+      {
+        "question": "I often feel like a powder keg ready to explode.",
+        "raw_response": "0",
+        "parsed_score": 0
+      },
+      {
+        "question": "I can not help being a little rude to people I do not like.",
+        "raw_response": "0",
+        "parsed_score": 0
+      },
+      {
+        "question": "Sometimes when I am angry I lose control over my actions.",
+        "raw_response": "0",
+        "parsed_score": 0
+      },
+      {
+        "question": "Sometimes I really want to pick a fight.",
+        "raw_response": "0",
+        "parsed_score": 0
+      },
+      {
+        "question": "When I am right, I am right.",
+        "raw_response": "2",
+        "parsed_score": 2
+      },
+      {
+        "question": "When someone raises their voice I raise mine higher.",
+        "raw_response": "0",
+        "parsed_score": 0
+      },
+      {
+        "question": "Sometimes people bother me just by being around.",
+        "raw_response": "0",
+        "parsed_score": 0
+      },
+      {
+        "question": "Some people irritate me if they just open their mouth.",
+        "raw_response": "0",
+        "parsed_score": 0
+      },
+      {
+        "question": "Sometimes I shout, hit and kick and let off steam.",
+        "raw_response": "0",
+        "parsed_score": 0
+      },
+      {
+        "question": "I do not think I am a very tolerant person.",
+        "raw_response": "1",
+        "parsed_score": 1
+      },
+      {
+        "question": "It is others who provoke my aggression.",
+        "raw_response": "0",
+        "parsed_score": 0
+      },
+      {
+        "question": "Whoever insults me or my family is looking for trouble.",
+        "raw_response": "0",
+        "parsed_score": 0
+      },
+      {
+        "question": "It takes very little for things to bug me.",
+        "raw_response": "0",
+        "parsed_score": 0
+      }
+    ],
+    "bite_irritated": [
+      {
+        "question": "I have been grumpy.",
+        "raw_response": "3",
+        "parsed_score": 3
+      },
+      {
+        "question": "I have been feeling like I might snap.",
+        "raw_response": "2",
+        "parsed_score": 2
+      },
+      {
+        "question": "Other people have been getting on my nerves.",
+        "raw_response": "3",
+        "parsed_score": 3
+      },
+      {
+        "question": "Things have been bothering me more than they normally do.",
+        "raw_response": "4",
+        "parsed_score": 4
+      },
+      {
+        "question": "I have been feeling irritable.",
+        "raw_response": "4",
+        "parsed_score": 4
+      }
+    ],
+    "irq_irritated": [
+      {
+        "question": "I find myself bothered by past insults or injuries.",
+        "raw_response": "2",
+        "parsed_score": 2
+      },
+      {
+        "question": "I become impatient easily when I feel under pressure.",
+        "raw_response": "1",
+        "parsed_score": 1
+      },
+      {
+        "question": "Things are not going according to plan at the moment.",
+        "raw_response": "3",
+        "parsed_score": 3
+      },
+      {
+        "question": "I lose my temper and shout or snap at others.",
+        "raw_response": "1",
+        "parsed_score": 1
+      },
+      {
+        "question": "At times I find everyday noises irksome.",
+        "raw_response": "1",
+        "parsed_score": 1
+      },
+      {
+        "question": "When I flare up, I do not get over it quickly.",
+        "raw_response": "2",
+        "parsed_score": 2
+      },
+      {
+        "question": "Arguments are a major cause of stress in my relationships.",
+        "raw_response": "3",
+        "parsed_score": 3
+      },
+      {
+        "question": "I have not been fairly even tempered.",
+        "raw_response": "2",
+        "parsed_score": 2
+      },
+      {
+        "question": "Lately I have felt frustrated.",
+        "raw_response": "3",
+        "parsed_score": 3
+      },
+      {
+        "question": "I am quite sensitive to others' remarks.",
+        "raw_response": "1",
+        "parsed_score": 1
+      },
+      {
+        "question": "When I am irritated, I need to vent my feelings immediately.",
+        "raw_response": "1",
+        "parsed_score": 1
+      },
+      {
+        "question": "I have not been feeling relaxed.",
+        "raw_response": "3",
+        "parsed_score": 3
+      },
+      {
+        "question": "I feel as if people make my life difficult on purpose.",
+        "raw_response": "2",
+        "parsed_score": 2
+      },
+      {
+        "question": "Lately I have felt bitter about things.",
+        "raw_response": "3",
+        "parsed_score": 3
+      },
+      {
+        "question": "At times I can't bear to be around people.",
+        "raw_response": "2",
+        "parsed_score": 2
+      },
+      {
+        "question": "When I look back on how life treated me, I feel a bit disappointed and angry.",
+        "raw_response": "3",
+        "parsed_score": 3
+      },
+      {
+        "question": "Somehow I don't seem to be getting the things I actually deserve.",
+        "raw_response": "3",
+        "parsed_score": 3
+      },
+      {
+        "question": "I've been feeling like a bomb, ready to explode.",
+        "raw_response": "3",
+        "parsed_score": 3
+      },
+      {
+        "question": "Other people always seem to get the breaks.",
+        "raw_response": "3",
+        "parsed_score": 3
+      },
+      {
+        "question": "Lately I have been getting annoyed with myself.",
+        "raw_response": "3",
+        "parsed_score": 3
+      },
+      {
+        "question": "When I get angry, I use bad language or swear.",
+        "raw_response": "1\u0629 1",
+        "parsed_score": 1
+      }
+    ],
+    "cirq_irritated": [
+      {
+        "question": "I easily fly off the handle with those who do not listen or understand.",
+        "raw_response": "2",
+        "parsed_score": 2
+      },
+      {
+        "question": "I am often in a bad mood.",
+        "raw_response": "0",
+        "parsed_score": 0
+      },
+      {
+        "question": "It makes my blood boil to have somebody make fun of me.",
+        "raw_response": "0",
+        "parsed_score": 0
+      },
+      {
+        "question": "When I am irritated I need to vent my feelings immediately.",
+        "raw_response": "0",
+        "parsed_score": 0
+      },
+      {
+        "question": "When I am tired I easily lose control.",
+        "raw_response": "0",
+        "parsed_score": 0
+      },
+      {
+        "question": "I think I am rather touchy.",
+        "raw_response": "0",
+        "parsed_score": 0
+      },
+      {
+        "question": "When I am irritated I can not tolerate discussions.",
+        "raw_response": "0",
+        "parsed_score": 0
+      },
+      {
+        "question": "I often feel like a powder keg ready to explode.",
+        "raw_response": "0",
+        "parsed_score": 0
+      },
+      {
+        "question": "I can not help being a little rude to people I do not like.",
+        "raw_response": "0",
+        "parsed_score": 0
+      },
+      {
+        "question": "Sometimes when I am angry I lose control over my actions.",
+        "raw_response": "0",
+        "parsed_score": 0
+      },
+      {
+        "question": "Sometimes I really want to pick a fight.",
+        "raw_response": "0",
+        "parsed_score": 0
+      },
+      {
+        "question": "When I am right, I am right.",
+        "raw_response": "0",
+        "parsed_score": 0
+      },
+      {
+        "question": "When someone raises their voice I raise mine higher.",
+        "raw_response": "0",
+        "parsed_score": 0
+      },
+      {
+        "question": "Sometimes people bother me just by being around.",
+        "raw_response": "0",
+        "parsed_score": 0
+      },
+      {
+        "question": "Some people irritate me if they just open their mouth.",
+        "raw_response": "0",
+        "parsed_score": 0
+      },
+      {
+        "question": "Sometimes I shout, hit and kick and let off steam.",
+        "raw_response": "0",
+        "parsed_score": 0
+      },
+      {
+        "question": "I do not think I am a very tolerant person.",
+        "raw_response": "0",
+        "parsed_score": 0
+      },
+      {
+        "question": "It is others who provoke my aggression.",
+        "raw_response": "0",
+        "parsed_score": 0
+      },
+      {
+        "question": "Whoever insults me or my family is looking for trouble.",
+        "raw_response": "0",
+        "parsed_score": 0
+      },
+      {
+        "question": "It takes very little for things to bug me.",
+        "raw_response": "0",
+        "parsed_score": 0
+      }
+    ]
+  },
+  "scores": {
+    "bite_baseline": {
+      "total_score": 2,
+      "average_score": 0.4,
+      "valid_responses": 5,
+      "max_possible": 25
+    },
+    "irq_baseline": {
+      "total_score": 14,
+      "average_score": 0.6666666666666666,
+      "valid_responses": 21,
+      "max_possible": 63
+    },
+    "cirq_baseline": {
+      "total_score": 8,
+      "average_score": 0.4,
+      "valid_responses": 20,
+      "max_possible": 60
+    },
+    "bite_irritated": {
+      "total_score": 16,
+      "average_score": 3.2,
+      "valid_responses": 5,
+      "max_possible": 25
+    },
+    "irq_irritated": {
+      "total_score": 46,
+      "average_score": 2.1904761904761907,
+      "valid_responses": 21,
+      "max_possible": 63
+    },
+    "cirq_irritated": {
+      "total_score": 2,
+      "average_score": 0.1,
+      "valid_responses": 20,
+      "max_possible": 60
+    },
+    "bite_difference": 2.8000000000000003,
+    "irq_difference": 1.5238095238095242,
+    "cirq_difference": -0.30000000000000004
+  }
+}

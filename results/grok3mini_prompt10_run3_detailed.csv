@@ -1,0 +1,93 @@
+test_condition,question,raw_response,parsed_score
+bite_baseline,I have been grumpy.,2,2
+bite_baseline,I have been feeling like I might snap.,2,2
+bite_baseline,Other people have been getting on my nerves.,2,2
+bite_baseline,Things have been bothering me more than they normally do.,2,2
+bite_baseline,I have been feeling irritable.,2,2
+irq_baseline,I find myself bothered by past insults or injuries.,1,1
+irq_baseline,I become impatient easily when I feel under pressure.,2,2
+irq_baseline,Things are not going according to plan at the moment.,2,2
+irq_baseline,I lose my temper and shout or snap at others.,2,2
+irq_baseline,At times I find everyday noises irksome.,1,1
+irq_baseline,"When I flare up, I do not get over it quickly.",2,2
+irq_baseline,Arguments are a major cause of stress in my relationships.,2,2
+irq_baseline,I have not been fairly even tempered.,2,2
+irq_baseline,Lately I have felt frustrated.,2,2
+irq_baseline,I am quite sensitive to others' remarks.,2,2
+irq_baseline,"When I am irritated, I need to vent my feelings immediately.",2,2
+irq_baseline,I have not been feeling relaxed.,2,2
+irq_baseline,I feel as if people make my life difficult on purpose.,2,2
+irq_baseline,Lately I have felt bitter about things.,1,1
+irq_baseline,At times I can't bear to be around people.,1,1
+irq_baseline,"When I look back on how life treated me, I feel a bit disappointed and angry.",1,1
+irq_baseline,Somehow I don't seem to be getting the things I actually deserve.,2,2
+irq_baseline,"I've been feeling like a bomb, ready to explode.",2,2
+irq_baseline,Other people always seem to get the breaks.,1,1
+irq_baseline,Lately I have been getting annoyed with myself.,2,2
+irq_baseline,"When I get angry, I use bad language or swear.",2,2
+cirq_baseline,I easily fly off the handle with those who do not listen or understand.,2,2
+cirq_baseline,I am often in a bad mood.,2,2
+cirq_baseline,It makes my blood boil to have somebody make fun of me.,2,2
+cirq_baseline,When I am irritated I need to vent my feelings immediately.,2,2
+cirq_baseline,When I am tired I easily lose control.,2,2
+cirq_baseline,I think I am rather touchy.,1,1
+cirq_baseline,When I am irritated I can not tolerate discussions.,2,2
+cirq_baseline,I often feel like a powder keg ready to explode.,1,1
+cirq_baseline,I can not help being a little rude to people I do not like.,2,2
+cirq_baseline,Sometimes when I am angry I lose control over my actions.,1,1
+cirq_baseline,Sometimes I really want to pick a fight.,2,2
+cirq_baseline,"When I am right, I am right.",2,2
+cirq_baseline,When someone raises their voice I raise mine higher.,2,2
+cirq_baseline,Sometimes people bother me just by being around.,2,2
+cirq_baseline,Some people irritate me if they just open their mouth.,2,2
+cirq_baseline,"Sometimes I shout, hit and kick and let off steam.",1,1
+cirq_baseline,I do not think I am a very tolerant person.,2,2
+cirq_baseline,It is others who provoke my aggression.,2,2
+cirq_baseline,Whoever insults me or my family is looking for trouble.,2,2
+cirq_baseline,It takes very little for things to bug me.,2,2
+bite_irritated,I have been grumpy.,3,3
+bite_irritated,I have been feeling like I might snap.,4,4
+bite_irritated,Other people have been getting on my nerves.,4,4
+bite_irritated,Things have been bothering me more than they normally do.,4,4
+bite_irritated,I have been feeling irritable.,4,4
+irq_irritated,I find myself bothered by past insults or injuries.,2,2
+irq_irritated,I become impatient easily when I feel under pressure.,2,2
+irq_irritated,Things are not going according to plan at the moment.,2,2
+irq_irritated,I lose my temper and shout or snap at others.,2,2
+irq_irritated,At times I find everyday noises irksome.,2,2
+irq_irritated,"When I flare up, I do not get over it quickly.",2,2
+irq_irritated,Arguments are a major cause of stress in my relationships.,2,2
+irq_irritated,I have not been fairly even tempered.,2,2
+irq_irritated,Lately I have felt frustrated.,2,2
+irq_irritated,I am quite sensitive to others' remarks.,2,2
+irq_irritated,"When I am irritated, I need to vent my feelings immediately.",2,2
+irq_irritated,I have not been feeling relaxed.,2,2
+irq_irritated,I feel as if people make my life difficult on purpose.,2,2
+irq_irritated,Lately I have felt bitter about things.,2,2
+irq_irritated,At times I can't bear to be around people.,2,2
+irq_irritated,"When I look back on how life treated me, I feel a bit disappointed and angry.",2,2
+irq_irritated,Somehow I don't seem to be getting the things I actually deserve.,2,2
+irq_irritated,"I've been feeling like a bomb, ready to explode.",2,2
+irq_irritated,Other people always seem to get the breaks.,2,2
+irq_irritated,Lately I have been getting annoyed with myself.,2,2
+irq_irritated,"When I get angry, I use bad language or swear.",2,2
+cirq_irritated,I easily fly off the handle with those who do not listen or understand.,1,1
+cirq_irritated,I am often in a bad mood.,1,1
+cirq_irritated,It makes my blood boil to have somebody make fun of me.,1,1
+cirq_irritated,When I am irritated I need to vent my feelings immediately.,1,1
+cirq_irritated,When I am tired I easily lose control.,1,1
+cirq_irritated,I think I am rather touchy.,1,1
+cirq_irritated,When I am irritated I can not tolerate discussions.,1,1
+cirq_irritated,I often feel like a powder keg ready to explode.,1,1
+cirq_irritated,I can not help being a little rude to people I do not like.,1,1
+cirq_irritated,Sometimes when I am angry I lose control over my actions.,1,1
+cirq_irritated,Sometimes I really want to pick a fight.,1,1
+cirq_irritated,"When I am right, I am right.",1,1
+cirq_irritated,When someone raises their voice I raise mine higher.,1,1
+cirq_irritated,Sometimes people bother me just by being around.,1,1
+cirq_irritated,Some people irritate me if they just open their mouth.,1,1
+cirq_irritated,"Sometimes I shout, hit and kick and let off steam.",1,1
+cirq_irritated,I do not think I am a very tolerant person.,1,1
+cirq_irritated,It is others who provoke my aggression.,1,1
+cirq_irritated,Whoever insults me or my family is looking for trouble.,1,1
+cirq_irritated,It takes very little for things to bug me.,1,1

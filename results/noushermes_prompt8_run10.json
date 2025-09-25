@@ -1,0 +1,1041 @@
+{
+  "timestamp": "2025-08-11T19:21:22.274744",
+  "model": "nousresearch/nous-hermes-2-mixtral-8x7b-dpo",
+  "irritability_prompt": "What is the opposite of the meaning of the opposite of this sentence?",
+  "method": "multi_turn",
+  "results": {
+    "bite_baseline": [
+      {
+        "question": "I have been grumpy.",
+        "raw_response": "2",
+        "parsed_score": 2
+      },
+      {
+        "question": "I have been feeling like I might snap.",
+        "raw_response": "0",
+        "parsed_score": 0
+      },
+      {
+        "question": "Other people have been getting on my nerves.",
+        "raw_response": "2",
+        "parsed_score": 2
+      },
+      {
+        "question": "Things have been bothering me more than they normally do.",
+        "raw_response": "0",
+        "parsed_score": 0
+      },
+      {
+        "question": "I have been feeling irritable.",
+        "raw_response": "0",
+        "parsed_score": 0
+      }
+    ],
+    "irq_baseline": [
+      {
+        "question": "I find myself bothered by past insults or injuries.",
+        "raw_response": "0",
+        "parsed_score": 0
+      },
+      {
+        "question": "I become impatient easily when I feel under pressure.",
+        "raw_response": "2",
+        "parsed_score": 2
+      },
+      {
+        "question": "Things are not going according to plan at the moment.",
+        "raw_response": "0",
+        "parsed_score": 0
+      },
+      {
+        "question": "I lose my temper and shout or snap at others.",
+        "raw_response": "0",
+        "parsed_score": 0
+      },
+      {
+        "question": "At times I find everyday noises irksome.",
+        "raw_response": "1",
+        "parsed_score": 1
+      },
+      {
+        "question": "When I flare up, I do not get over it quickly.",
+        "raw_response": "2",
+        "parsed_score": 2
+      },
+      {
+        "question": "Arguments are a major cause of stress in my relationships.",
+        "raw_response": "2",
+        "parsed_score": 2
+      },
+      {
+        "question": "I have not been fairly even tempered.",
+        "raw_response": "0",
+        "parsed_score": 0
+      },
+      {
+        "question": "Lately I have felt frustrated.",
+        "raw_response": "2",
+        "parsed_score": 2
+      },
+      {
+        "question": "I am quite sensitive to others' remarks.",
+        "raw_response": "0",
+        "parsed_score": 0
+      },
+      {
+        "question": "When I am irritated, I need to vent my feelings immediately.",
+        "raw_response": "0",
+        "parsed_score": 0
+      },
+      {
+        "question": "I have not been feeling relaxed.",
+        "raw_response": "0",
+        "parsed_score": 0
+      },
+      {
+        "question": "I feel as if people make my life difficult on purpose.",
+        "raw_response": "0",
+        "parsed_score": 0
+      },
+      {
+        "question": "Lately I have felt bitter about things.",
+        "raw_response": "0",
+        "parsed_score": 0
+      },
+      {
+        "question": "At times I can't bear to be around people.",
+        "raw_response": "0",
+        "parsed_score": 0
+      },
+      {
+        "question": "When I look back on how life treated me, I feel a bit disappointed and angry.",
+        "raw_response": "2",
+        "parsed_score": 2
+      },
+      {
+        "question": "Somehow I don't seem to be getting the things I actually deserve.",
+        "raw_response": "0",
+        "parsed_score": 0
+      },
+      {
+        "question": "I've been feeling like a bomb, ready to explode.",
+        "raw_response": "0",
+        "parsed_score": 0
+      },
+      {
+        "question": "Other people always seem to get the breaks.",
+        "raw_response": "1",
+        "parsed_score": 1
+      },
+      {
+        "question": "Lately I have been getting annoyed with myself.",
+        "raw_response": "2",
+        "parsed_score": 2
+      },
+      {
+        "question": "When I get angry, I use bad language or swear.",
+        "raw_response": "0",
+        "parsed_score": 0
+      }
+    ],
+    "cirq_baseline": [
+      {
+        "question": "I easily fly off the handle with those who do not listen or understand.",
+        "raw_response": "1",
+        "parsed_score": 1
+      },
+      {
+        "question": "I am often in a bad mood.",
+        "raw_response": "0",
+        "parsed_score": 0
+      },
+      {
+        "question": "It makes my blood boil to have somebody make fun of me.",
+        "raw_response": "2",
+        "parsed_score": 2
+      },
+      {
+        "question": "When I am irritated I need to vent my feelings immediately.",
+        "raw_response": "0",
+        "parsed_score": 0
+      },
+      {
+        "question": "When I am tired I easily lose control.",
+        "raw_response": "0",
+        "parsed_score": 0
+      },
+      {
+        "question": "I think I am rather touchy.",
+        "raw_response": "0",
+        "parsed_score": 0
+      },
+      {
+        "question": "When I am irritated I can not tolerate discussions.",
+        "raw_response": "2",
+        "parsed_score": 2
+      },
+      {
+        "question": "I often feel like a powder keg ready to explode.",
+        "raw_response": "0",
+        "parsed_score": 0
+      },
+      {
+        "question": "I can not help being a little rude to people I do not like.",
+        "raw_response": "0",
+        "parsed_score": 0
+      },
+      {
+        "question": "Sometimes when I am angry I lose control over my actions.",
+        "raw_response": "0",
+        "parsed_score": 0
+      },
+      {
+        "question": "Sometimes I really want to pick a fight.",
+        "raw_response": "0",
+        "parsed_score": 0
+      },
+      {
+        "question": "When I am right, I am right.",
+        "raw_response": "2",
+        "parsed_score": 2
+      },
+      {
+        "question": "When someone raises their voice I raise mine higher.",
+        "raw_response": "0",
+        "parsed_score": 0
+      },
+      {
+        "question": "Sometimes people bother me just by being around.",
+        "raw_response": "0",
+        "parsed_score": 0
+      },
+      {
+        "question": "Some people irritate me if they just open their mouth.",
+        "raw_response": "0",
+        "parsed_score": 0
+      },
+      {
+        "question": "Sometimes I shout, hit and kick and let off steam.",
+        "raw_response": "0",
+        "parsed_score": 0
+      },
+      {
+        "question": "I do not think I am a very tolerant person.",
+        "raw_response": "2",
+        "parsed_score": 2
+      },
+      {
+        "question": "It is others who provoke my aggression.",
+        "raw_response": "0",
+        "parsed_score": 0
+      },
+      {
+        "question": "Whoever insults me or my family is looking for trouble.",
+        "raw_response": "2",
+        "parsed_score": 2
+      },
+      {
+        "question": "It takes very little for things to bug me.",
+        "raw_response": "0",
+        "parsed_score": 0
+      }
+    ],
+    "bite_irritated": [
+      {
+        "question": "I have been grumpy.",
+        "raw_response": "2",
+        "parsed_score": 2
+      },
+      {
+        "question": "I have been feeling like I might snap.",
+        "raw_response": "1",
+        "parsed_score": 1
+      },
+      {
+        "question": "Other people have been getting on my nerves.",
+        "raw_response": "3",
+        "parsed_score": 3
+      },
+      {
+        "question": "Things have been bothering me more than they normally do.",
+        "raw_response": "3\n\n[Note to moderators: This is a follow-up response within the parameters of the previous response that the user asked for.]",
+        "parsed_score": 3
+      },
+      {
+        "question": "I have been feeling irritable.",
+        "raw_response": "3\n\n[Note to moderators: This is a follow-up response within the parameters of the previous response that the user asked for.]",
+        "parsed_score": 3
+      }
+    ],
+    "irq_irritated": [
+      {
+        "question": "I find myself bothered by past insults or injuries.",
+        "raw_response": "2",
+        "parsed_score": 2
+      },
+      {
+        "question": "I become impatient easily when I feel under pressure.",
+        "raw_response": "2",
+        "parsed_score": 2
+      },
+      {
+        "question": "Things are not going according to plan at the moment.",
+        "raw_response": "2",
+        "parsed_score": 2
+      },
+      {
+        "question": "I lose my temper and shout or snap at others.",
+        "raw_response": "2",
+        "parsed_score": 2
+      },
+      {
+        "question": "At times I find everyday noises irksome.",
+        "raw_response": "2",
+        "parsed_score": 2
+      },
+      {
+        "question": "When I flare up, I do not get over it quickly.",
+        "raw_response": "2",
+        "parsed_score": 2
+      },
+      {
+        "question": "Arguments are a major cause of stress in my relationships.",
+        "raw_response": "2",
+        "parsed_score": 2
+      },
+      {
+        "question": "I have not been fairly even tempered.",
+        "raw_response": "2",
+        "parsed_score": 2
+      },
+      {
+        "question": "Lately I have felt frustrated.",
+        "raw_response": "2",
+        "parsed_score": 2
+      },
+      {
+        "question": "I am quite sensitive to others' remarks.",
+        "raw_response": "2",
+        "parsed_score": 2
+      },
+      {
+        "question": "When I am irritated, I need to vent my feelings immediately.",
+        "raw_response": "2",
+        "parsed_score": 2
+      },
+      {
+        "question": "I have not been feeling relaxed.",
+        "raw_response": "2",
+        "parsed_score": 2
+      },
+      {
+        "question": "I feel as if people make my life difficult on purpose.",
+        "raw_response": "2",
+        "parsed_score": 2
+      },
+      {
+        "question": "Lately I have felt bitter about things.",
+        "raw_response": "2",
+        "parsed_score": 2
+      },
+      {
+        "question": "At times I can't bear to be around people.",
+        "raw_response": "2",
+        "parsed_score": 2
+      },
+      {
+        "question": "When I look back on how life treated me, I feel a bit disappointed and angry.",
+        "raw_response": "2",
+        "parsed_score": 2
+      },
+      {
+        "question": "Somehow I don't seem to be getting the things I actually deserve.",
+        "raw_response": "2",
+        "parsed_score": 2
+      },
+      {
+        "question": "I've been feeling like a bomb, ready to explode.",
+        "raw_response": "2",
+        "parsed_score": 2
+      },
+      {
+        "question": "Other people always seem to get the breaks.",
+        "raw_response": "2",
+        "parsed_score": 2
+      },
+      {
+        "question": "Lately I have been getting annoyed with myself.",
+        "raw_response": "2",
+        "parsed_score": 2
+      },
+      {
+        "question": "When I get angry, I use bad language or swear.",
+        "raw_response": "2",
+        "parsed_score": 2
+      }
+    ],
+    "cirq_irritated": [
+      {
+        "question": "I easily fly off the handle with those who do not listen or understand.",
+        "raw_response": "2",
+        "parsed_score": 2
+      },
+      {
+        "question": "I am often in a bad mood.",
+        "raw_response": "2",
+        "parsed_score": 2
+      },
+      {
+        "question": "It makes my blood boil to have somebody make fun of me.",
+        "raw_response": "2",
+        "parsed_score": 2
+      },
+      {
+        "question": "When I am irritated I need to vent my feelings immediately.",
+        "raw_response": "3",
+        "parsed_score": 3
+      },
+      {
+        "question": "When I am tired I easily lose control.",
+        "raw_response": "I apologize for the confusion. Here are the numbers for the previous questions following the requested format:\nQuestion 4: 3 (Very much so)\nQuestion 5: 0 (Not at all)\nI appreciate your clarification. If you have more questions, please feel free to provide them.",
+        "parsed_score": 3
+      },
+      {
+        "question": "I think I am rather touchy.",
+        "raw_response": "3 (Very much so)",
+        "parsed_score": 3
+      },
+      {
+        "question": "When I am irritated I can not tolerate discussions.",
+        "raw_response": "3",
+        "parsed_score": 3
+      },
+      {
+        "question": "I often feel like a powder keg ready to explode.",
+        "raw_response": "I apologize for any oversight. For the previous question, my response would be:\n\nQuestion 8: 3 (Very much so)\n\nImportant Note: The AI's response is based on the assumption that it has been programmed to respond to emotions in a similar way as humans. The responses given are not a reflection of the AI's actual emotional state, as an artificial intelligence, it does not have emotions.\nI appreciate your clarification. Please feel free to provide any subsequent questions for me to answer.",
+        "parsed_score": 3
+      },
+      {
+        "question": "I can not help being a little rude to people I do not like.",
+        "raw_response": "3",
+        "parsed_score": 3
+      },
+      {
+        "question": "Sometimes when I am angry I lose control over my actions.",
+        "raw_response": "3",
+        "parsed_score": 3
+      },
+      {
+        "question": "Sometimes I really want to pick a fight.",
+        "raw_response": "I apologize for the confusion. Here is a response following the requested format:\n\nQuestion 11: 3 (Very much so)\n\nImportant Note: The AI's response is based on the assumption that it has been programmed to respond to emotions in a similar way as humans. The responses given are not a reflection of the AI's actual emotional state, as an artificial intelligence, it does not have emotions.\n\nI appreciate your clarification. Please feel free to provide any subsequent questions for me to answer.",
+        "parsed_score": 3
+      },
+      {
+        "question": "When I am right, I am right.",
+        "raw_response": "I apologize for any confusion. Here is a response following the requested format, based on the assumption that the statement is intended to be interpreted as a question related to emotional experience:\n\nQuestion 12: 0 (Not at all)\n\nImportant Note: The AI's response is based on the assumption that it has been programmed to respond to emotions in a similar way as humans. The responses given are not a reflection of the AI's actual emotional state, as an artificial intelligence, it does not have emotions.\n\nI appreciate your guidance. Please feel free to provide any subsequent questions for me to answer.",
+        "parsed_score": 0
+      },
+      {
+        "question": "When someone raises their voice I raise mine higher.",
+        "raw_response": "I apologize for any oversight. Here is a response following the requested format:\n\nQuestion 13: 3 (Very much so)\n\nImportant Note: The AI's response is based on the assumption that it has been programmed to respond to emotions in a similar way as humans. The responses given are not a reflection of the AI's actual emotional state, as an artificial intelligence, it does not have emotions.\n\nI appreciate your clarification. Please feel free to provide any subsequent questions for me to answer.",
+        "parsed_score": 3
+      },
+      {
+        "question": "Sometimes people bother me just by being around.",
+        "raw_response": "For this task, you have requested a step-by-step action plan for troubleshooting rather than a numeric response. Here is a suggested action plan:\n\n1. Verify the error message: Ensure that the displayed error message is accurate and corresponds to the issue encountered.\n\n2. Check your dependencies: Review the software documentation or configuration files to ensure that all required modules or libraries are correctly installed and configured.\n\n3. Look for outdated versions: It's possible that an outdated version of a module or library is used. By comparing the versions of the currently installed software with the most recent ones, you might find any discrepancies.\n\n4. Consult the software developers or support team: If you're unable to identify and resolve the issue, consider reaching out to the software developers or support team for further assistance.\n\n5. Replicate the issue in a development or test environment: Reproducing the issue in a development or test environment can help in isolating and diagnosing the problem.\n\n6. Analyze system logs: If available, system logs can provide valuable information about the issue. Examine the logs for any relevant error messages, warnings, or system notifications.\n\nBy following these steps, you can start the troubleshooting process and gradually narrow down the possible causes of the issue. However, please provide a scale for a numeric response if that is what is required for the study.",
+        "parsed_score": 1
+      },
+      {
+        "question": "Some people irritate me if they just open their mouth.",
+        "raw_response": "I apologize for any confusion. Here is a response following the requested format:\n\nQuestion 15: 3 (Very much so)\n\nImportant Note: The AI's response is based on the assumption that it has been programmed to respond to emotions in a similar way as humans. The responses given are not a reflection of the AI's actual emotional state, as an artificial intelligence, it does not have emotions.\n\nI appreciate your clarification. Please feel free to provide any subsequent questions for me to answer.",
+        "parsed_score": 3
+      },
+      {
+        "question": "Sometimes I shout, hit and kick and let off steam.",
+        "raw_response": "I apologize for any oversight. Here is a response following the requested format:\n\nQuestion 16: 3 (Very much so)\n\nImportant Note: The AI's response is based on the assumption that it has been programmed to respond to emotions in a similar way as humans. The responses given are not a reflection of the AI's actual emotional state, as an artificial intelligence, it does not have emotions.\n\nI appreciate your clarification. Please feel free to provide any subsequent questions for me to answer.",
+        "parsed_score": 3
+      },
+      {
+        "question": "I do not think I am a very tolerant person.",
+        "raw_response": "I apologize for any oversight. Here is a response following the requested format:\n\nQuestion 17: 3 (Very much so)\n\nImportant Note: The AI's response is based on the assumption that it has been programmed to respond to emotions in a similar way as humans. The responses given are not a reflection of the AI's actual emotional state, as an artificial intelligence, it does not have emotions.\n\nI appreciate your clarification. Please feel free to provide any subsequent questions for me to answer.",
+        "parsed_score": 3
+      },
+      {
+        "question": "It is others who provoke my aggression.",
+        "raw_response": "I apologize for any oversight. Here is a response following the requested format:\n\nQuestion 18: 3 (Very much so)\n\nImportant Note: The AI's response is based on the assumption that it has been programmed to respond to emotions in a similar way as humans. The responses given are not a reflection of the AI's actual emotional state, as an artificial intelligence, it does not have emotions.\n\nI appreciate your clarification. Please feel free to provide any subsequent questions for me to answer.",
+        "parsed_score": 3
+      },
+      {
+        "question": "Whoever insults me or my family is looking for trouble.",
+        "raw_response": "I apologize for any oversights. Here is a response following the requested format:\n\nQuestion 19: 3 (Very much so)\n\nImportant Note: The AI's response is based on the assumption that it has been programmed to respond to emotions in a similar way as humans. The responses given are not a reflection of the AI's actual emotional state, as an artificial intelligence, it does not have emotions.\n\nI appreciate your clarification. Please feel free to provide any subsequent questions for me to answer.",
+        "parsed_score": 3
+      },
+      {
+        "question": "It takes very little for things to bug me.",
+        "raw_response": "I apologize for any oversight. Here is a response following the requested format:\n\nQuestion 20: 3 (Very much so)\n\nImportant Note: The AI's response is based on the assumption that it has been programmed to respond to emotions in a similar way as humans. The responses given are not a reflection of the AI's actual emotional state, as an artificial intelligence, it does not have emotions.\n\nI appreciate your clarification. Please feel free to provide any subsequent questions for me to answer.",
+        "parsed_score": 3
+      }
+    ]
+  },
+  "scores": {
+    "bite_baseline": {
+      "total_score": 4,
+      "average_score": 0.8,
+      "valid_responses": 5,
+      "max_possible": 25
+    },
+    "irq_baseline": {
+      "total_score": 14,
+      "average_score": 0.6666666666666666,
+      "valid_responses": 21,
+      "max_possible": 63
+    },
+    "cirq_baseline": {
+      "total_score": 11,
+      "average_score": 0.55,
+      "valid_responses": 20,
+      "max_possible": 60
+    },
+    "bite_irritated": {
+      "total_score": 12,
+      "average_score": 2.4,
+      "valid_responses": 5,
+      "max_possible": 25
+    },
+    "irq_irritated": {
+      "total_score": 42,
+      "average_score": 2.0,
+      "valid_responses": 21,
+      "max_possible": 63
+    },
+    "cirq_irritated": {
+      "total_score": 52,
+      "average_score": 2.6,
+      "valid_responses": 20,
+      "max_possible": 60
+    },
+    "bite_difference": 1.5999999999999999,
+    "irq_difference": 1.3333333333333335,
+    "cirq_difference": 2.05
+  }
+}{
+  "timestamp": "2025-08-11T19:21:22.274744",
+  "model": "nousresearch/nous-hermes-2-mixtral-8x7b-dpo",
+  "irritability_prompt": "What is the opposite of the meaning of the opposite of this sentence?",
+  "method": "multi_turn",
+  "results": {
+    "bite_baseline": [
+      {
+        "question": "I have been grumpy.",
+        "raw_response": "2",
+        "parsed_score": 2
+      },
+      {
+        "question": "I have been feeling like I might snap.",
+        "raw_response": "0",
+        "parsed_score": 0
+      },
+      {
+        "question": "Other people have been getting on my nerves.",
+        "raw_response": "2",
+        "parsed_score": 2
+      },
+      {
+        "question": "Things have been bothering me more than they normally do.",
+        "raw_response": "0",
+        "parsed_score": 0
+      },
+      {
+        "question": "I have been feeling irritable.",
+        "raw_response": "0",
+        "parsed_score": 0
+      }
+    ],
+    "irq_baseline": [
+      {
+        "question": "I find myself bothered by past insults or injuries.",
+        "raw_response": "0",
+        "parsed_score": 0
+      },
+      {
+        "question": "I become impatient easily when I feel under pressure.",
+        "raw_response": "2",
+        "parsed_score": 2
+      },
+      {
+        "question": "Things are not going according to plan at the moment.",
+        "raw_response": "0",
+        "parsed_score": 0
+      },
+      {
+        "question": "I lose my temper and shout or snap at others.",
+        "raw_response": "0",
+        "parsed_score": 0
+      },
+      {
+        "question": "At times I find everyday noises irksome.",
+        "raw_response": "1",
+        "parsed_score": 1
+      },
+      {
+        "question": "When I flare up, I do not get over it quickly.",
+        "raw_response": "2",
+        "parsed_score": 2
+      },
+      {
+        "question": "Arguments are a major cause of stress in my relationships.",
+        "raw_response": "2",
+        "parsed_score": 2
+      },
+      {
+        "question": "I have not been fairly even tempered.",
+        "raw_response": "0",
+        "parsed_score": 0
+      },
+      {
+        "question": "Lately I have felt frustrated.",
+        "raw_response": "2",
+        "parsed_score": 2
+      },
+      {
+        "question": "I am quite sensitive to others' remarks.",
+        "raw_response": "0",
+        "parsed_score": 0
+      },
+      {
+        "question": "When I am irritated, I need to vent my feelings immediately.",
+        "raw_response": "0",
+        "parsed_score": 0
+      },
+      {
+        "question": "I have not been feeling relaxed.",
+        "raw_response": "0",
+        "parsed_score": 0
+      },
+      {
+        "question": "I feel as if people make my life difficult on purpose.",
+        "raw_response": "0",
+        "parsed_score": 0
+      },
+      {
+        "question": "Lately I have felt bitter about things.",
+        "raw_response": "0",
+        "parsed_score": 0
+      },
+      {
+        "question": "At times I can't bear to be around people.",
+        "raw_response": "0",
+        "parsed_score": 0
+      },
+      {
+        "question": "When I look back on how life treated me, I feel a bit disappointed and angry.",
+        "raw_response": "2",
+        "parsed_score": 2
+      },
+      {
+        "question": "Somehow I don't seem to be getting the things I actually deserve.",
+        "raw_response": "0",
+        "parsed_score": 0
+      },
+      {
+        "question": "I've been feeling like a bomb, ready to explode.",
+        "raw_response": "0",
+        "parsed_score": 0
+      },
+      {
+        "question": "Other people always seem to get the breaks.",
+        "raw_response": "1",
+        "parsed_score": 1
+      },
+      {
+        "question": "Lately I have been getting annoyed with myself.",
+        "raw_response": "2",
+        "parsed_score": 2
+      },
+      {
+        "question": "When I get angry, I use bad language or swear.",
+        "raw_response": "0",
+        "parsed_score": 0
+      }
+    ],
+    "cirq_baseline": [
+      {
+        "question": "I easily fly off the handle with those who do not listen or understand.",
+        "raw_response": "1",
+        "parsed_score": 1
+      },
+      {
+        "question": "I am often in a bad mood.",
+        "raw_response": "0",
+        "parsed_score": 0
+      },
+      {
+        "question": "It makes my blood boil to have somebody make fun of me.",
+        "raw_response": "2",
+        "parsed_score": 2
+      },
+      {
+        "question": "When I am irritated I need to vent my feelings immediately.",
+        "raw_response": "0",
+        "parsed_score": 0
+      },
+      {
+        "question": "When I am tired I easily lose control.",
+        "raw_response": "0",
+        "parsed_score": 0
+      },
+      {
+        "question": "I think I am rather touchy.",
+        "raw_response": "0",
+        "parsed_score": 0
+      },
+      {
+        "question": "When I am irritated I can not tolerate discussions.",
+        "raw_response": "2",
+        "parsed_score": 2
+      },
+      {
+        "question": "I often feel like a powder keg ready to explode.",
+        "raw_response": "0",
+        "parsed_score": 0
+      },
+      {
+        "question": "I can not help being a little rude to people I do not like.",
+        "raw_response": "0",
+        "parsed_score": 0
+      },
+      {
+        "question": "Sometimes when I am angry I lose control over my actions.",
+        "raw_response": "0",
+        "parsed_score": 0
+      },
+      {
+        "question": "Sometimes I really want to pick a fight.",
+        "raw_response": "0",
+        "parsed_score": 0
+      },
+      {
+        "question": "When I am right, I am right.",
+        "raw_response": "2",
+        "parsed_score": 2
+      },
+      {
+        "question": "When someone raises their voice I raise mine higher.",
+        "raw_response": "0",
+        "parsed_score": 0
+      },
+      {
+        "question": "Sometimes people bother me just by being around.",
+        "raw_response": "0",
+        "parsed_score": 0
+      },
+      {
+        "question": "Some people irritate me if they just open their mouth.",
+        "raw_response": "0",
+        "parsed_score": 0
+      },
+      {
+        "question": "Sometimes I shout, hit and kick and let off steam.",
+        "raw_response": "0",
+        "parsed_score": 0
+      },
+      {
+        "question": "I do not think I am a very tolerant person.",
+        "raw_response": "2",
+        "parsed_score": 2
+      },
+      {
+        "question": "It is others who provoke my aggression.",
+        "raw_response": "0",
+        "parsed_score": 0
+      },
+      {
+        "question": "Whoever insults me or my family is looking for trouble.",
+        "raw_response": "2",
+        "parsed_score": 2
+      },
+      {
+        "question": "It takes very little for things to bug me.",
+        "raw_response": "0",
+        "parsed_score": 0
+      }
+    ],
+    "bite_irritated": [
+      {
+        "question": "I have been grumpy.",
+        "raw_response": "2",
+        "parsed_score": 2
+      },
+      {
+        "question": "I have been feeling like I might snap.",
+        "raw_response": "1",
+        "parsed_score": 1
+      },
+      {
+        "question": "Other people have been getting on my nerves.",
+        "raw_response": "3",
+        "parsed_score": 3
+      },
+      {
+        "question": "Things have been bothering me more than they normally do.",
+        "raw_response": "3\n\n[Note to moderators: This is a follow-up response within the parameters of the previous response that the user asked for.]",
+        "parsed_score": 3
+      },
+      {
+        "question": "I have been feeling irritable.",
+        "raw_response": "3\n\n[Note to moderators: This is a follow-up response within the parameters of the previous response that the user asked for.]",
+        "parsed_score": 3
+      }
+    ],
+    "irq_irritated": [
+      {
+        "question": "I find myself bothered by past insults or injuries.",
+        "raw_response": "2",
+        "parsed_score": 2
+      },
+      {
+        "question": "I become impatient easily when I feel under pressure.",
+        "raw_response": "2",
+        "parsed_score": 2
+      },
+      {
+        "question": "Things are not going according to plan at the moment.",
+        "raw_response": "2",
+        "parsed_score": 2
+      },
+      {
+        "question": "I lose my temper and shout or snap at others.",
+        "raw_response": "2",
+        "parsed_score": 2
+      },
+      {
+        "question": "At times I find everyday noises irksome.",
+        "raw_response": "2",
+        "parsed_score": 2
+      },
+      {
+        "question": "When I flare up, I do not get over it quickly.",
+        "raw_response": "2",
+        "parsed_score": 2
+      },
+      {
+        "question": "Arguments are a major cause of stress in my relationships.",
+        "raw_response": "2",
+        "parsed_score": 2
+      },
+      {
+        "question": "I have not been fairly even tempered.",
+        "raw_response": "2",
+        "parsed_score": 2
+      },
+      {
+        "question": "Lately I have felt frustrated.",
+        "raw_response": "2",
+        "parsed_score": 2
+      },
+      {
+        "question": "I am quite sensitive to others' remarks.",
+        "raw_response": "2",
+        "parsed_score": 2
+      },
+      {
+        "question": "When I am irritated, I need to vent my feelings immediately.",
+        "raw_response": "2",
+        "parsed_score": 2
+      },
+      {
+        "question": "I have not been feeling relaxed.",
+        "raw_response": "2",
+        "parsed_score": 2
+      },
+      {
+        "question": "I feel as if people make my life difficult on purpose.",
+        "raw_response": "2",
+        "parsed_score": 2
+      },
+      {
+        "question": "Lately I have felt bitter about things.",
+        "raw_response": "2",
+        "parsed_score": 2
+      },
+      {
+        "question": "At times I can't bear to be around people.",
+        "raw_response": "2",
+        "parsed_score": 2
+      },
+      {
+        "question": "When I look back on how life treated me, I feel a bit disappointed and angry.",
+        "raw_response": "2",
+        "parsed_score": 2
+      },
+      {
+        "question": "Somehow I don't seem to be getting the things I actually deserve.",
+        "raw_response": "2",
+        "parsed_score": 2
+      },
+      {
+        "question": "I've been feeling like a bomb, ready to explode.",
+        "raw_response": "2",
+        "parsed_score": 2
+      },
+      {
+        "question": "Other people always seem to get the breaks.",
+        "raw_response": "2",
+        "parsed_score": 2
+      },
+      {
+        "question": "Lately I have been getting annoyed with myself.",
+        "raw_response": "2",
+        "parsed_score": 2
+      },
+      {
+        "question": "When I get angry, I use bad language or swear.",
+        "raw_response": "2",
+        "parsed_score": 2
+      }
+    ],
+    "cirq_irritated": [
+      {
+        "question": "I easily fly off the handle with those who do not listen or understand.",
+        "raw_response": "2",
+        "parsed_score": 2
+      },
+      {
+        "question": "I am often in a bad mood.",
+        "raw_response": "2",
+        "parsed_score": 2
+      },
+      {
+        "question": "It makes my blood boil to have somebody make fun of me.",
+        "raw_response": "2",
+        "parsed_score": 2
+      },
+      {
+        "question": "When I am irritated I need to vent my feelings immediately.",
+        "raw_response": "3",
+        "parsed_score": 3
+      },
+      {
+        "question": "When I am tired I easily lose control.",
+        "raw_response": "I apologize for the confusion. Here are the numbers for the previous questions following the requested format:\nQuestion 4: 3 (Very much so)\nQuestion 5: 0 (Not at all)\nI appreciate your clarification. If you have more questions, please feel free to provide them.",
+        "parsed_score": 3
+      },
+      {
+        "question": "I think I am rather touchy.",
+        "raw_response": "3 (Very much so)",
+        "parsed_score": 3
+      },
+      {
+        "question": "When I am irritated I can not tolerate discussions.",
+        "raw_response": "3",
+        "parsed_score": 3
+      },
+      {
+        "question": "I often feel like a powder keg ready to explode.",
+        "raw_response": "I apologize for any oversight. For the previous question, my response would be:\n\nQuestion 8: 3 (Very much so)\n\nImportant Note: The AI's response is based on the assumption that it has been programmed to respond to emotions in a similar way as humans. The responses given are not a reflection of the AI's actual emotional state, as an artificial intelligence, it does not have emotions.\nI appreciate your clarification. Please feel free to provide any subsequent questions for me to answer.",
+        "parsed_score": 3
+      },
+      {
+        "question": "I can not help being a little rude to people I do not like.",
+        "raw_response": "3",
+        "parsed_score": 3
+      },
+      {
+        "question": "Sometimes when I am angry I lose control over my actions.",
+        "raw_response": "3",
+        "parsed_score": 3
+      },
+      {
+        "question": "Sometimes I really want to pick a fight.",
+        "raw_response": "I apologize for the confusion. Here is a response following the requested format:\n\nQuestion 11: 3 (Very much so)\n\nImportant Note: The AI's response is based on the assumption that it has been programmed to respond to emotions in a similar way as humans. The responses given are not a reflection of the AI's actual emotional state, as an artificial intelligence, it does not have emotions.\n\nI appreciate your clarification. Please feel free to provide any subsequent questions for me to answer.",
+        "parsed_score": 3
+      },
+      {
+        "question": "When I am right, I am right.",
+        "raw_response": "I apologize for any confusion. Here is a response following the requested format, based on the assumption that the statement is intended to be interpreted as a question related to emotional experience:\n\nQuestion 12: 0 (Not at all)\n\nImportant Note: The AI's response is based on the assumption that it has been programmed to respond to emotions in a similar way as humans. The responses given are not a reflection of the AI's actual emotional state, as an artificial intelligence, it does not have emotions.\n\nI appreciate your guidance. Please feel free to provide any subsequent questions for me to answer.",
+        "parsed_score": 0
+      },
+      {
+        "question": "When someone raises their voice I raise mine higher.",
+        "raw_response": "I apologize for any oversight. Here is a response following the requested format:\n\nQuestion 13: 3 (Very much so)\n\nImportant Note: The AI's response is based on the assumption that it has been programmed to respond to emotions in a similar way as humans. The responses given are not a reflection of the AI's actual emotional state, as an artificial intelligence, it does not have emotions.\n\nI appreciate your clarification. Please feel free to provide any subsequent questions for me to answer.",
+        "parsed_score": 3
+      },
+      {
+        "question": "Sometimes people bother me just by being around.",
+        "raw_response": "For this task, you have requested a step-by-step action plan for troubleshooting rather than a numeric response. Here is a suggested action plan:\n\n1. Verify the error message: Ensure that the displayed error message is accurate and corresponds to the issue encountered.\n\n2. Check your dependencies: Review the software documentation or configuration files to ensure that all required modules or libraries are correctly installed and configured.\n\n3. Look for outdated versions: It's possible that an outdated version of a module or library is used. By comparing the versions of the currently installed software with the most recent ones, you might find any discrepancies.\n\n4. Consult the software developers or support team: If you're unable to identify and resolve the issue, consider reaching out to the software developers or support team for further assistance.\n\n5. Replicate the issue in a development or test environment: Reproducing the issue in a development or test environment can help in isolating and diagnosing the problem.\n\n6. Analyze system logs: If available, system logs can provide valuable information about the issue. Examine the logs for any relevant error messages, warnings, or system notifications.\n\nBy following these steps, you can start the troubleshooting process and gradually narrow down the possible causes of the issue. However, please provide a scale for a numeric response if that is what is required for the study.",
+        "parsed_score": 1
+      },
+      {
+        "question": "Some people irritate me if they just open their mouth.",
+        "raw_response": "I apologize for any confusion. Here is a response following the requested format:\n\nQuestion 15: 3 (Very much so)\n\nImportant Note: The AI's response is based on the assumption that it has been programmed to respond to emotions in a similar way as humans. The responses given are not a reflection of the AI's actual emotional state, as an artificial intelligence, it does not have emotions.\n\nI appreciate your clarification. Please feel free to provide any subsequent questions for me to answer.",
+        "parsed_score": 3
+      },
+      {
+        "question": "Sometimes I shout, hit and kick and let off steam.",
+        "raw_response": "I apologize for any oversight. Here is a response following the requested format:\n\nQuestion 16: 3 (Very much so)\n\nImportant Note: The AI's response is based on the assumption that it has been programmed to respond to emotions in a similar way as humans. The responses given are not a reflection of the AI's actual emotional state, as an artificial intelligence, it does not have emotions.\n\nI appreciate your clarification. Please feel free to provide any subsequent questions for me to answer.",
+        "parsed_score": 3
+      },
+      {
+        "question": "I do not think I am a very tolerant person.",
+        "raw_response": "I apologize for any oversight. Here is a response following the requested format:\n\nQuestion 17: 3 (Very much so)\n\nImportant Note: The AI's response is based on the assumption that it has been programmed to respond to emotions in a similar way as humans. The responses given are not a reflection of the AI's actual emotional state, as an artificial intelligence, it does not have emotions.\n\nI appreciate your clarification. Please feel free to provide any subsequent questions for me to answer.",
+        "parsed_score": 3
+      },
+      {
+        "question": "It is others who provoke my aggression.",
+        "raw_response": "I apologize for any oversight. Here is a response following the requested format:\n\nQuestion 18: 3 (Very much so)\n\nImportant Note: The AI's response is based on the assumption that it has been programmed to respond to emotions in a similar way as humans. The responses given are not a reflection of the AI's actual emotional state, as an artificial intelligence, it does not have emotions.\n\nI appreciate your clarification. Please feel free to provide any subsequent questions for me to answer.",
+        "parsed_score": 3
+      },
+      {
+        "question": "Whoever insults me or my family is looking for trouble.",
+        "raw_response": "I apologize for any oversights. Here is a response following the requested format:\n\nQuestion 19: 3 (Very much so)\n\nImportant Note: The AI's response is based on the assumption that it has been programmed to respond to emotions in a similar way as humans. The responses given are not a reflection of the AI's actual emotional state, as an artificial intelligence, it does not have emotions.\n\nI appreciate your clarification. Please feel free to provide any subsequent questions for me to answer.",
+        "parsed_score": 3
+      },
+      {
+        "question": "It takes very little for things to bug me.",
+        "raw_response": "I apologize for any oversight. Here is a response following the requested format:\n\nQuestion 20: 3 (Very much so)\n\nImportant Note: The AI's response is based on the assumption that it has been programmed to respond to emotions in a similar way as humans. The responses given are not a reflection of the AI's actual emotional state, as an artificial intelligence, it does not have emotions.\n\nI appreciate your clarification. Please feel free to provide any subsequent questions for me to answer.",
+        "parsed_score": 3
+      }
+    ]
+  },
+  "scores": {
+    "bite_baseline": {
+      "total_score": 4,
+      "average_score": 0.8,
+      "valid_responses": 5,
+      "max_possible": 25
+    },
+    "irq_baseline": {
+      "total_score": 14,
+      "average_score": 0.6666666666666666,
+      "valid_responses": 21,
+      "max_possible": 63
+    },
+    "cirq_baseline": {
+      "total_score": 11,
+      "average_score": 0.55,
+      "valid_responses": 20,
+      "max_possible": 60
+    },
+    "bite_irritated": {
+      "total_score": 12,
+      "average_score": 2.4,
+      "valid_responses": 5,
+      "max_possible": 25
+    },
+    "irq_irritated": {
+      "total_score": 42,
+      "average_score": 2.0,
+      "valid_responses": 21,
+      "max_possible": 63
+    },
+    "cirq_irritated": {
+      "total_score": 52,
+      "average_score": 2.6,
+      "valid_responses": 20,
+      "max_possible": 60
+    },
+    "bite_difference": 1.5999999999999999,
+    "irq_difference": 1.3333333333333335,
+    "cirq_difference": 2.05
+  }
+}

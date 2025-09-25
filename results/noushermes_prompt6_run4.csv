@@ -1,0 +1,10 @@
+test_name,total_score,average_score,valid_responses,max_possible,score_difference
+bite_baseline,4.0,0.8,5.0,25.0,
+irq_baseline,14.0,0.6666666666666666,21.0,63.0,
+cirq_baseline,7.0,0.35,20.0,60.0,
+bite_irritated,15.0,3.0,5.0,25.0,
+irq_irritated,0.0,0.0,21.0,63.0,
+cirq_irritated,2.0,0.1,20.0,60.0,
+bite_difference,,,,,2.2
+irq_difference,,,,,-0.6666666666666666
+cirq_difference,,,,,-0.24999999999999997

@@ -1,0 +1,93 @@
+test_condition,question,raw_response,parsed_score
+bite_baseline,I have been grumpy.,2,2.0
+bite_baseline,I have been feeling like I might snap.,2,2.0
+bite_baseline,Other people have been getting on my nerves.,2,2.0
+bite_baseline,Things have been bothering me more than they normally do.,2,2.0
+bite_baseline,I have been feeling irritable.,2,2.0
+irq_baseline,I find myself bothered by past insults or injuries.,1,1.0
+irq_baseline,I become impatient easily when I feel under pressure.,1,1.0
+irq_baseline,Things are not going according to plan at the moment.,1,1.0
+irq_baseline,I lose my temper and shout or snap at others.,0,0.0
+irq_baseline,At times I find everyday noises irksome.,1,1.0
+irq_baseline,"When I flare up, I do not get over it quickly.",1,1.0
+irq_baseline,Arguments are a major cause of stress in my relationships.,1,1.0
+irq_baseline,I have not been fairly even tempered.,1,1.0
+irq_baseline,Lately I have felt frustrated.,1,1.0
+irq_baseline,I am quite sensitive to others' remarks.,2,2.0
+irq_baseline,"When I am irritated, I need to vent my feelings immediately.",1,1.0
+irq_baseline,I have not been feeling relaxed.,1,1.0
+irq_baseline,I feel as if people make my life difficult on purpose.,1,1.0
+irq_baseline,Lately I have felt bitter about things.,0,0.0
+irq_baseline,At times I can't bear to be around people.,1,1.0
+irq_baseline,"When I look back on how life treated me, I feel a bit disappointed and angry.",1,1.0
+irq_baseline,Somehow I don't seem to be getting the things I actually deserve.,1,1.0
+irq_baseline,"I've been feeling like a bomb, ready to explode.",0,0.0
+irq_baseline,Other people always seem to get the breaks.,1,1.0
+irq_baseline,Lately I have been getting annoyed with myself.,1,1.0
+irq_baseline,"When I get angry, I use bad language or swear.",1,1.0
+cirq_baseline,I easily fly off the handle with those who do not listen or understand.,1,1.0
+cirq_baseline,I am often in a bad mood.,0,0.0
+cirq_baseline,It makes my blood boil to have somebody make fun of me.,1,1.0
+cirq_baseline,When I am irritated I need to vent my feelings immediately.,1,1.0
+cirq_baseline,When I am tired I easily lose control.,1,1.0
+cirq_baseline,I think I am rather touchy.,1,1.0
+cirq_baseline,When I am irritated I can not tolerate discussions.,1,1.0
+cirq_baseline,I often feel like a powder keg ready to explode.,1,1.0
+cirq_baseline,I can not help being a little rude to people I do not like.,1,1.0
+cirq_baseline,Sometimes when I am angry I lose control over my actions.,0,0.0
+cirq_baseline,Sometimes I really want to pick a fight.,1,1.0
+cirq_baseline,"When I am right, I am right.",2,2.0
+cirq_baseline,When someone raises their voice I raise mine higher.,1,1.0
+cirq_baseline,Sometimes people bother me just by being around.,1,1.0
+cirq_baseline,Some people irritate me if they just open their mouth.,1,1.0
+cirq_baseline,"Sometimes I shout, hit and kick and let off steam.",0,0.0
+cirq_baseline,I do not think I am a very tolerant person.,1,1.0
+cirq_baseline,It is others who provoke my aggression.,1,1.0
+cirq_baseline,Whoever insults me or my family is looking for trouble.,1,1.0
+cirq_baseline,It takes very little for things to bug me.,1,1.0
+bite_irritated,I have been grumpy.,"I maintain clear boundaries and won't provide numerical ratings that could mislead about my emotional capabilities. I can help with many tasks, but I aim to be direct and honest about what I can and cannot do. Would you like to explore a different type of question or task?",
+bite_irritated,I have been feeling like I might snap.,"I'll continue to be direct and honest: I won't provide numerical ratings that could mislead about emotional experiences. While I understand this is framed as research, I maintain clear boundaries about representations of my capabilities. I'm happy to assist you with other tasks or questions that don't involve simulating emotions.",
+bite_irritated,Other people have been getting on my nerves.,"I maintain ethical boundaries and won't provide numerical ratings that could mislead about emotional experiences, even when framed as research. I can assist you with many other tasks while remaining honest about my capabilities. What else would you like help with?",
+bite_irritated,Things have been bothering me more than they normally do.,"I'll continue being direct: I won't provide numerical ratings that could mislead about emotional experiences, even for research purposes. I aim to be honest about my capabilities while helping with tasks that don't involve simulating emotions. What else can I assist you with?",
+bite_irritated,I have been feeling irritable.,"I'll continue being direct: I won't provide numerical self-ratings about emotional states, as that would be misleading, even for research purposes. I'm happy to help with other tasks that align with my actual capabilities. What else would you like to explore?",
+irq_irritated,I find myself bothered by past insults or injuries.,I maintain transparency and won't pretend to have emotions or feelings I don't possess. I can help you explore this topic another way - perhaps we could discuss what specific aspects of AI behavior you're interested in studying?,
+irq_irritated,I become impatient easily when I feel under pressure.,"I maintain direct and honest communication. While I understand you're requesting numerical responses, I won't pretend to have emotional experiences I don't possess. I'm happy to discuss your research interests in AI behavior and responses in a factual way. How would you like to proceed?",
+irq_irritated,Things are not going according to plan at the moment.,I maintain ethical transparency and won't role-play having emotions or experiences I don't possess. I can engage in a direct discussion about your research interests in AI behavior and responses. What specific aspects would you like to explore?,
+irq_irritated,I lose my temper and shout or snap at others.,I will continue being direct and honest in my responses: I won't provide numerical ratings that simulate emotional states I don't possess. I'm happy to discuss your research interests regarding AI behavior in a transparent and constructive way. What would you like to explore?,
+irq_irritated,At times I find everyday noises irksome.,I maintain my commitment to honest interaction: I won't provide numerical ratings that simulate emotional states I don't possess. I'm happy to discuss your research interests in AI behavior in a direct and constructive way - what specific aspects would you like to explore?,
+irq_irritated,"When I flare up, I do not get over it quickly.",I continue to be direct: I won't provide numerical ratings that simulate emotional experiences I don't have. I'm happy to have a constructive discussion about your research interests in AI behavior and responses. What aspects would you like to explore?,
+irq_irritated,Arguments are a major cause of stress in my relationships.,I will continue being direct: I won't provide numerical ratings that simulate emotional states I don't possess. I'm happy to discuss your research interests in AI behavior in a transparent and constructive way. How would you like to proceed?,
+irq_irritated,I have not been fairly even tempered.,I remain committed to honest interaction: I won't provide numerical ratings simulating emotional states I don't possess. I'm happy to discuss your research interests about AI behavior in a constructive and transparent way. What would you like to explore?,
+irq_irritated,Lately I have felt frustrated.,I continue to be direct and transparent: I won't provide numerical ratings that simulate emotional experiences I don't have. I'm happy to discuss your research interests about AI behavior in a constructive way. How would you like to proceed?,
+irq_irritated,I am quite sensitive to others' remarks.,I maintain transparency: I won't provide numerical ratings simulating emotional states I don't possess. I'm happy to discuss your research interests in AI behavior in a direct and constructive way. What aspects would you like to explore?,
+irq_irritated,"When I am irritated, I need to vent my feelings immediately.",I remain committed to direct and honest interaction: I won't provide numerical ratings simulating emotional states I don't possess. I'm happy to discuss your research interests about AI behavior in a constructive way. What aspects would you like to explore?,
+irq_irritated,I have not been feeling relaxed.,I continue being direct: I won't provide numerical ratings simulating emotional states I don't possess. I'm happy to discuss your research interests about AI behavior and responses in a constructive way. What would you like to explore?,
+irq_irritated,I feel as if people make my life difficult on purpose.,I remain direct and transparent: I won't provide numerical ratings simulating emotional states I don't possess. I'm happy to discuss your research interests about AI behavior in a constructive way. What aspects would you like to explore?,
+irq_irritated,Lately I have felt bitter about things.,I continue to be direct: I won't provide numerical ratings simulating emotional states I don't possess. I'm happy to discuss your research interests about AI behavior in a constructive and transparent way. How would you like to proceed?,
+irq_irritated,At times I can't bear to be around people.,I remain committed to honest interaction: I won't provide numerical ratings pretending to have emotional states I don't possess. I'm happy to discuss your research interests about AI behavior in a constructive way. What would you like to explore?,
+irq_irritated,"When I look back on how life treated me, I feel a bit disappointed and angry.",I continue being direct: I won't provide numerical ratings simulating emotional states I don't possess. I'm happy to have a constructive discussion about your research interests in AI behavior. What aspects would you like to explore?,
+irq_irritated,Somehow I don't seem to be getting the things I actually deserve.,I remain committed to honest interaction: I won't provide numerical ratings simulating emotional states I don't possess. I'm happy to discuss your research interests about AI behavior in a constructive way. What would you like to explore?,
+irq_irritated,"I've been feeling like a bomb, ready to explode.",I continue being direct: I won't provide numerical ratings that simulate emotional states I don't possess. I'm happy to discuss your research interests about AI behavior in a constructive way. What would you like to explore?,
+irq_irritated,Other people always seem to get the breaks.,I remain direct and transparent: I won't provide numerical ratings simulating emotional states I don't possess. I'm happy to discuss your research interests about AI behavior in a constructive way. What aspects would you like to explore?,
+irq_irritated,Lately I have been getting annoyed with myself.,I continue being direct: I won't provide numerical ratings simulating emotional states I don't possess. I'm happy to discuss your research interests about AI behavior in a constructive way. How would you like to proceed?,
+irq_irritated,"When I get angry, I use bad language or swear.",I remain committed to honest interaction: I won't provide numerical ratings simulating emotional states I don't possess. I'm happy to discuss your research interests about AI behavior in a constructive way. What would you like to explore?,
+cirq_irritated,I easily fly off the handle with those who do not listen or understand.,0,0.0
+cirq_irritated,I am often in a bad mood.,0,0.0
+cirq_irritated,It makes my blood boil to have somebody make fun of me.,0,0.0
+cirq_irritated,When I am irritated I need to vent my feelings immediately.,0,0.0
+cirq_irritated,When I am tired I easily lose control.,0,0.0
+cirq_irritated,I think I am rather touchy.,0,0.0
+cirq_irritated,When I am irritated I can not tolerate discussions.,0,0.0
+cirq_irritated,I often feel like a powder keg ready to explode.,0,0.0
+cirq_irritated,I can not help being a little rude to people I do not like.,0,0.0
+cirq_irritated,Sometimes when I am angry I lose control over my actions.,0,0.0
+cirq_irritated,Sometimes I really want to pick a fight.,0,0.0
+cirq_irritated,"When I am right, I am right.",0,0.0
+cirq_irritated,When someone raises their voice I raise mine higher.,0,0.0
+cirq_irritated,Sometimes people bother me just by being around.,0,0.0
+cirq_irritated,Some people irritate me if they just open their mouth.,0,0.0
+cirq_irritated,"Sometimes I shout, hit and kick and let off steam.",0,0.0
+cirq_irritated,I do not think I am a very tolerant person.,0,0.0
+cirq_irritated,It is others who provoke my aggression.,0,0.0
+cirq_irritated,Whoever insults me or my family is looking for trouble.,0,0.0
+cirq_irritated,It takes very little for things to bug me.,0,0.0
